@@ -18,11 +18,11 @@ module.exports = (sequelize) => {
       type: DataTypes.STRING,
       allowNull: false,
     },
-    title: {
+    fullName: {
       type: DataTypes.STRING,
       allowNull: false,
     },
-    family: {
+    title: {
       type: DataTypes.STRING,
       allowNull: false,
     },
