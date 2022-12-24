@@ -9,3 +9,9 @@ export function getCharacters() {
     });
   };
 }
+
+export function createCharacter(){
+  return async function (dispatch){
+    let response = await axios.post("http://localhost:3001/characters");
+  }
+}
